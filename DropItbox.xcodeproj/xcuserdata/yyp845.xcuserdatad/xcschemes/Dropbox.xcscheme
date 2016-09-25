@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7CF523241D974442006D37E5"
-               BuildableName = "Dropbox.app"
-               BlueprintName = "Dropbox"
-               ReferencedContainer = "container:Dropbox.xcodeproj">
+               BuildableName = "DropItbox.app"
+               BlueprintName = "DropItbox"
+               ReferencedContainer = "container:DropItbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7CF523381D974443006D37E5"
-               BuildableName = "DropboxTests.xctest"
-               BlueprintName = "DropboxTests"
-               ReferencedContainer = "container:Dropbox.xcodeproj">
+               BuildableName = "DropItboxTests.xctest"
+               BlueprintName = "DropItboxTests"
+               ReferencedContainer = "container:DropItbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7CF523431D974443006D37E5"
-               BuildableName = "DropboxUITests.xctest"
-               BlueprintName = "DropboxUITests"
-               ReferencedContainer = "container:Dropbox.xcodeproj">
+               BuildableName = "DropItboxUITests.xctest"
+               BlueprintName = "DropItboxUITests"
+               ReferencedContainer = "container:DropItbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7CF523241D974442006D37E5"
-            BuildableName = "Dropbox.app"
-            BlueprintName = "Dropbox"
-            ReferencedContainer = "container:Dropbox.xcodeproj">
+            BuildableName = "DropItbox.app"
+            BlueprintName = "DropItbox"
+            ReferencedContainer = "container:DropItbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7CF523241D974442006D37E5"
-            BuildableName = "Dropbox.app"
-            BlueprintName = "Dropbox"
-            ReferencedContainer = "container:Dropbox.xcodeproj">
+            BuildableName = "DropItbox.app"
+            BlueprintName = "DropItbox"
+            ReferencedContainer = "container:DropItbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7CF523241D974442006D37E5"
-            BuildableName = "Dropbox.app"
-            BlueprintName = "Dropbox"
-            ReferencedContainer = "container:Dropbox.xcodeproj">
+            BuildableName = "DropItbox.app"
+            BlueprintName = "DropItbox"
+            ReferencedContainer = "container:DropItbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

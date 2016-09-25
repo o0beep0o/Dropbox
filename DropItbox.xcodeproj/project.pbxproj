@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7CF523251D974442006D37E5 /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF523251D974442006D37E5 /* DropItbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropItbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF523281D974442006D37E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF5232D1D974442006D37E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CF5232F1D974443006D37E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CF523321D974443006D37E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CF523341D974443006D37E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CF523391D974443006D37E5 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF523391D974443006D37E5 /* DropItboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropItboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF5233D1D974443006D37E5 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
 		7CF5233F1D974443006D37E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CF523441D974443006D37E5 /* DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF523441D974443006D37E5 /* DropItboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropItboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF523481D974443006D37E5 /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
 		7CF5234A1D974443006D37E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CF523561D975538006D37E5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		7CF523261D974442006D37E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CF523251D974442006D37E5 /* Dropbox.app */,
-				7CF523391D974443006D37E5 /* DropboxTests.xctest */,
-				7CF523441D974443006D37E5 /* DropboxUITests.xctest */,
+				7CF523251D974442006D37E5 /* DropItbox.app */,
+				7CF523391D974443006D37E5 /* DropItboxTests.xctest */,
+				7CF523441D974443006D37E5 /* DropItboxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CF523241D974442006D37E5 /* Dropbox */ = {
+		7CF523241D974442006D37E5 /* DropItbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CF5234D1D974443006D37E5 /* Build configuration list for PBXNativeTarget "Dropbox" */;
+			buildConfigurationList = 7CF5234D1D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItbox" */;
 			buildPhases = (
 				7CF523211D974442006D37E5 /* Sources */,
 				7CF523221D974442006D37E5 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Dropbox;
+			name = DropItbox;
 			productName = Dropbox;
-			productReference = 7CF523251D974442006D37E5 /* Dropbox.app */;
+			productReference = 7CF523251D974442006D37E5 /* DropItbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7CF523381D974443006D37E5 /* DropboxTests */ = {
+		7CF523381D974443006D37E5 /* DropItboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CF523501D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropboxTests" */;
+			buildConfigurationList = 7CF523501D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItboxTests" */;
 			buildPhases = (
 				7CF523351D974443006D37E5 /* Sources */,
 				7CF523361D974443006D37E5 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				7CF5233B1D974443006D37E5 /* PBXTargetDependency */,
 			);
-			name = DropboxTests;
+			name = DropItboxTests;
 			productName = DropboxTests;
-			productReference = 7CF523391D974443006D37E5 /* DropboxTests.xctest */;
+			productReference = 7CF523391D974443006D37E5 /* DropItboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7CF523431D974443006D37E5 /* DropboxUITests */ = {
+		7CF523431D974443006D37E5 /* DropItboxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CF523531D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropboxUITests" */;
+			buildConfigurationList = 7CF523531D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItboxUITests" */;
 			buildPhases = (
 				7CF523401D974443006D37E5 /* Sources */,
 				7CF523411D974443006D37E5 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				7CF523461D974443006D37E5 /* PBXTargetDependency */,
 			);
-			name = DropboxUITests;
+			name = DropItboxUITests;
 			productName = DropboxUITests;
-			productReference = 7CF523441D974443006D37E5 /* DropboxUITests.xctest */;
+			productReference = 7CF523441D974443006D37E5 /* DropItboxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7CF523201D974442006D37E5 /* Build configuration list for PBXProject "Dropbox" */;
+			buildConfigurationList = 7CF523201D974442006D37E5 /* Build configuration list for PBXProject "DropItbox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CF523241D974442006D37E5 /* Dropbox */,
-				7CF523381D974443006D37E5 /* DropboxTests */,
-				7CF523431D974443006D37E5 /* DropboxUITests */,
+				7CF523241D974442006D37E5 /* DropItbox */,
+				7CF523381D974443006D37E5 /* DropItboxTests */,
+				7CF523431D974443006D37E5 /* DropItboxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		7CF5233B1D974443006D37E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7CF523241D974442006D37E5 /* Dropbox */;
+			target = 7CF523241D974442006D37E5 /* DropItbox */;
 			targetProxy = 7CF5233A1D974443006D37E5 /* PBXContainerItemProxy */;
 		};
 		7CF523461D974443006D37E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7CF523241D974442006D37E5 /* Dropbox */;
+			target = 7CF523241D974442006D37E5 /* DropItbox */;
 			targetProxy = 7CF523451D974443006D37E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropboxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropbox.app/Dropbox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropItbox.app/DropItbox";
 			};
 			name = Debug;
 		};
@@ -454,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.DropboxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropbox.app/Dropbox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropItbox.app/DropItbox";
 			};
 			name = Release;
 		};
@@ -487,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CF523201D974442006D37E5 /* Build configuration list for PBXProject "Dropbox" */ = {
+		7CF523201D974442006D37E5 /* Build configuration list for PBXProject "DropItbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CF5234B1D974443006D37E5 /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CF5234D1D974443006D37E5 /* Build configuration list for PBXNativeTarget "Dropbox" */ = {
+		7CF5234D1D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CF5234E1D974443006D37E5 /* Debug */,
@@ -504,7 +504,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		7CF523501D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
+		7CF523501D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CF523511D974443006D37E5 /* Debug */,
@@ -512,7 +512,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		7CF523531D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropboxUITests" */ = {
+		7CF523531D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItboxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CF523541D974443006D37E5 /* Debug */,

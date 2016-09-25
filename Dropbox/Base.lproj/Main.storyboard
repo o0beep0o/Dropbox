@@ -26,7 +26,7 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="MJV-8v-PFx" kind="modal" animates="NO" id="Cua-dT-Xs5"/>
+                                    <segue destination="MJV-8v-PFx" kind="presentation" animates="NO" id="Cua-dT-Xs5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,7 +57,7 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="pRJ-0Z-RL9" kind="modal" animates="NO" id="RMa-0t-Mkd"/>
+                                    <segue destination="pRJ-0Z-RL9" kind="presentation" animates="NO" id="RMa-0t-Mkd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="-362" y="115"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--View Controller-->
         <scene sceneID="IQ8-iQ-Qg3">
             <objects>
-                <viewController id="pRJ-0Z-RL9" customClass="CreateAccountViewController" customModule="Dropbox" sceneMemberID="viewController">
+                <viewController id="pRJ-0Z-RL9" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="juk-QF-Ki8"/>
                         <viewControllerLayoutGuide type="bottom" id="EHO-bN-b2Q"/>
@@ -88,14 +88,14 @@
                                 <frame key="frameInset" minX="33" minY="448" width="308" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="cbt-Cc-RTQ" kind="modal" animates="NO" id="XaY-9C-vCk"/>
+                                    <segue destination="cbt-Cc-RTQ" kind="presentation" animates="NO" id="XaY-9C-vCk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KX7-s8-eEW">
                                 <frame key="frameInset" minX="149" minY="546" width="77" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="2Sn-WD-9AH" kind="modal" animates="NO" id="Rdi-Wh-ZxK"/>
+                                    <segue destination="2Sn-WD-9AH" kind="presentation" animates="NO" id="Rdi-Wh-ZxK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -109,7 +109,7 @@
         <!--CreateAccountRootViewController-->
         <scene sceneID="LHl-cv-DtZ">
             <objects>
-                <viewController title="CreateAccountRootViewController" id="iec-pz-6zo" sceneMemberID="viewController">
+                <viewController title="CreateAccountRootViewController" id="iec-pz-6zo" customClass="CreateAccountViewController" customModule="DropItbox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E2y-Dg-qHH"/>
                         <viewControllerLayoutGuide type="bottom" id="EKi-QZ-scJ"/>
@@ -130,7 +130,7 @@
                                 <frame key="frameInset" minY="548" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="dMK-Ue-4Mb" kind="modal" identifier="firstSegueCreate" animates="NO" id="neK-4t-xhZ"/>
+                                    <segue destination="dMK-Ue-4Mb" kind="presentation" identifier="firstSegueCreate" animates="NO" id="neK-4t-xhZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -180,7 +180,7 @@
                                 <frame key="frameInset" minY="496" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="GcL-wF-FQl" kind="modal" animates="NO" id="wmR-TE-m37"/>
+                                    <segue destination="GcL-wF-FQl" kind="presentation" animates="NO" id="wmR-TE-m37"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1m-C9-PiC">

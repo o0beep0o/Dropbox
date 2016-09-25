@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Dropbox.xcodeproj">
+      location = "self:/Users/yyp845/Desktop/CodePath/Assignments/Week01/Dropbox/DropItbox.xcodeproj">
    </FileRef>
 </Workspace>
