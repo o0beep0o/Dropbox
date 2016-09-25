@@ -46,7 +46,7 @@
 		7CF523441D974443006D37E5 /* DropItboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropItboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF523481D974443006D37E5 /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
 		7CF5234A1D974443006D37E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CF523561D975538006D37E5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		7CF523561D975538006D37E5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = Dropbox/CreateAccountViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,9 @@
 		7CF523271D974442006D37E5 /* Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				7CF523581D981D4C006D37E5 /* ViewControllers */,
 				7CF523281D974442006D37E5 /* AppDelegate.swift */,
 				7CF5232C1D974442006D37E5 /* Main.storyboard */,
-				7CF523561D975538006D37E5 /* CreateAccountViewController.swift */,
 				7CF5232F1D974443006D37E5 /* Assets.xcassets */,
 				7CF523311D974443006D37E5 /* LaunchScreen.storyboard */,
 				7CF523341D974443006D37E5 /* Info.plist */,
@@ -123,6 +123,14 @@
 				7CF5234A1D974443006D37E5 /* Info.plist */,
 			);
 			path = DropboxUITests;
+			sourceTree = "<group>";
+		};
+		7CF523581D981D4C006D37E5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CF523561D975538006D37E5 /* CreateAccountViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +511,7 @@
 				7CF5234F1D974443006D37E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF523501D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItboxTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				7CF523521D974443006D37E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF523531D974443006D37E5 /* Build configuration list for PBXNativeTarget "DropItboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				7CF523551D974443006D37E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

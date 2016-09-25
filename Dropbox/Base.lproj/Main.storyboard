@@ -71,7 +71,7 @@
         <!--View Controller-->
         <scene sceneID="IQ8-iQ-Qg3">
             <objects>
-                <viewController id="pRJ-0Z-RL9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="welcomeVC" title="WelcomeViewController03" id="pRJ-0Z-RL9" userLabel="View Controller" customClass="CreateAccountViewController" customModule="DropItbox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="juk-QF-Ki8"/>
                         <viewControllerLayoutGuide type="bottom" id="EHO-bN-b2Q"/>
@@ -84,18 +84,19 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6L-TB-65s">
-                                <frame key="frameInset" minX="33" minY="448" width="308" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="cbt-Cc-RTQ" kind="presentation" animates="NO" id="XaY-9C-vCk"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KX7-s8-eEW">
-                                <frame key="frameInset" minX="149" minY="546" width="77" height="32"/>
+                                <frame key="frameInset" minX="149" minY="546" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="2Sn-WD-9AH" kind="presentation" animates="NO" id="Rdi-Wh-ZxK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Y9-1V-6uk">
+                                <frame key="frameInset" minX="34" minY="450" width="307" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onPresentModal:" destination="pRJ-0Z-RL9" eventType="touchUpInside" id="yd3-ac-lbK"/>
+                                    <segue destination="cbt-Cc-RTQ" kind="presentation" id="deT-fE-ygx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -109,7 +110,7 @@
         <!--CreateAccountRootViewController-->
         <scene sceneID="LHl-cv-DtZ">
             <objects>
-                <viewController title="CreateAccountRootViewController" id="iec-pz-6zo" customClass="CreateAccountViewController" customModule="DropItbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CreateAccountRootViewController" id="iec-pz-6zo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E2y-Dg-qHH"/>
                         <viewControllerLayoutGuide type="bottom" id="EKi-QZ-scJ"/>
@@ -130,7 +131,7 @@
                                 <frame key="frameInset" minY="548" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="dMK-Ue-4Mb" kind="presentation" identifier="firstSegueCreate" animates="NO" id="neK-4t-xhZ"/>
+                                    <segue destination="dMK-Ue-4Mb" kind="presentation" identifier="firstSegueCreateAccount" animates="NO" id="neK-4t-xhZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -142,10 +143,10 @@
             </objects>
             <point key="canvasLocation" x="2692" y="-324.28785607196403"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--CreateAccountNavigationController-->
         <scene sceneID="EcJ-q8-9iR">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="cbt-Cc-RTQ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="cbt-Cc-RTQ" userLabel="CreateAccountNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iT0-lS-3mC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -196,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="2692" y="553"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--SignInNavigationController-->
         <scene sceneID="PmW-eR-NLJ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="2Sn-WD-9AH" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="2Sn-WD-9AH" userLabel="SignInNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="R0D-6B-vAP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -217,7 +218,7 @@
         <!--CreateAccount01ViewController-->
         <scene sceneID="J4U-u4-rq3">
             <objects>
-                <viewController id="dMK-Ue-4Mb" userLabel="CreateAccount01ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="createVC" id="dMK-Ue-4Mb" userLabel="CreateAccount01ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yGM-l5-EUs"/>
                         <viewControllerLayoutGuide type="bottom" id="bpE-kI-5zs"/>
@@ -226,7 +227,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome3" translatesAutoresizingMaskIntoConstraints="NO" id="xTv-3Y-5Gt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="create_account" translatesAutoresizingMaskIntoConstraints="NO" id="xTv-3Y-5Gt">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -251,7 +252,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome3" translatesAutoresizingMaskIntoConstraints="NO" id="6Fc-f3-aHp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sign_in1" translatesAutoresizingMaskIntoConstraints="NO" id="6Fc-f3-aHp">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -266,7 +267,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="create_account" width="320" height="568"/>
         <image name="logged_out" width="320" height="568"/>
+        <image name="sign_in1" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
