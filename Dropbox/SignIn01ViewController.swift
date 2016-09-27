@@ -1,23 +1,18 @@
 //
-//  CreateAccountViewController.swift
-//  Dropbox
+//  SignIn01ViewController.swift
+//  DropItbox
 //
-//  Created by Parker, Bryan on 9/24/16.
+//  Created by Parker, Bryan on 9/26/16.
 //  Copyright © 2016 Parker, Bryan. All rights reserved.
 //
 
 import UIKit
 
-var shouldAutoAdvance = true
-
-class CreateAccountViewController: UIViewController {
+class SignIn01ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if shouldAutoAdvance {
-            performSegue(withIdentifier: "firstSegueCA", sender: nil)
-        }
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -27,4 +22,7 @@ class CreateAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onPress(_ sender: AnyObject) {
+        navigationController!.popViewController(animated: true)
+    }
 }

@@ -1,23 +1,18 @@
 //
-//  CreateAccountViewController.swift
-//  Dropbox
+//  TermsViewController.swift
+//  DropItbox
 //
-//  Created by Parker, Bryan on 9/24/16.
+//  Created by Parker, Bryan on 9/25/16.
 //  Copyright © 2016 Parker, Bryan. All rights reserved.
 //
 
 import UIKit
 
-var shouldAutoAdvance = true
-
-class CreateAccountViewController: UIViewController {
+class TermsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if shouldAutoAdvance {
-            performSegue(withIdentifier: "firstSegueCA", sender: nil)
-        }
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -26,5 +21,8 @@ class CreateAccountViewController: UIViewController {
         
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func onPresentModal(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 }

@@ -1,23 +1,22 @@
 //
-//  CreateAccountViewController.swift
-//  Dropbox
+//  SettingsViewController.swift
+//  DropItbox
 //
-//  Created by Parker, Bryan on 9/24/16.
+//  Created by Parker, Bryan on 9/26/16.
 //  Copyright © 2016 Parker, Bryan. All rights reserved.
 //
 
 import UIKit
 
-var shouldAutoAdvance = true
-
-class CreateAccountViewController: UIViewController {
+class SettingsViewController: UIViewController {
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var settingsImageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if shouldAutoAdvance {
-            performSegue(withIdentifier: "firstSegueCA", sender: nil)
-        }
-        
+        scrollView.contentSize = settingsImageView.frame.size
+        shouldAutoAdvance = false
+
         // Do any additional setup after loading the view.
     }
 
@@ -26,5 +25,4 @@ class CreateAccountViewController: UIViewController {
         
         // Dispose of any resources that can be recreated.
     }
-
 }
